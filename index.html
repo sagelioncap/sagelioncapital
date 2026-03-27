@@ -44,12 +44,12 @@
             <a class="button secondary" href="#events">See events</a>
           </div>
         </div>
-        <div class="hero-card">
+        <div class="hero-card premium-hero">
           <video class="hero-video" autoplay muted loop playsinline poster="sage.jpg">
             <source src="hero-video-xs.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-
+         
         </div>
       </div>
     </section>
@@ -72,9 +72,9 @@
           
           <div class="founder-links">
             <span>Connect:</span>
-            <a class="social-link square-link image-link" href="https://openart.ai/@hyena_buttery_92" target="_blank" rel="noopener"><img src="openart-icon.jpg" alt="OpenArt" /></a>
-            <a class="social-link square-link image-link" href="https://www.tiktok.com/@8ktogo?_r=1&_t=ZS-94t2WM88brg" target="_blank" rel="noopener"><img src="tiktok-icon.jpg" alt="TikTok" /></a>
-            <a class="social-link square-link image-link" href="https://www.instagram.com/8ktogo?utm_source=qr&igsh=MTZsdDNnbHR6N3Zzbw==" target="_blank" rel="noopener"><img src="instagram-icon.jpg" alt="Instagram" /></a>
+            <a href="https://openart.ai/@hyena_buttery_92" target="_blank" rel="noopener" class="icon-link"><img src="icon-openart.svg" alt="OpenArt" /></a>
+            <a href="https://www.tiktok.com/@8ktogo?_r=1&_t=ZS-94t2WM88brg" target="_blank" rel="noopener" class="icon-link"><img src="icon-tiktok.svg" alt="TikTok" /></a>
+            <a href="https://www.instagram.com/8ktogo?utm_source=qr&igsh=MTZsdDNnbHR6N3Zzbw==" target="_blank" rel="noopener" class="icon-link"><img src="icon-instagram.svg" alt="Instagram" /></a>
           </div>
           </p>
         </div>
@@ -130,14 +130,6 @@
             <figcaption>Narrative concept piece</figcaption>
           </figure>
           <figure class="gallery-item">
-            <img src="my-sisters-friend.jpg" alt="My Sister's Friend" />
-            <figcaption>My Sister's Friend</figcaption>
-          </figure>
-          <figure class="gallery-item">
-            <img src="adversity.jpg" alt="Adversity" />
-            <figcaption>Adversity</figcaption>
-          </figure>
-          <figure class="gallery-item">
             <img src="visual-asset-2.jpg" alt="Textured landscape study" />
             <figcaption>Textured landscape study</figcaption>
           </figure>
@@ -156,6 +148,14 @@
           <figure class="gallery-item">
             <img src="marys-friend.jpg" alt="Original Mary's Friend (Oil on paper)" />
             <figcaption>Original Mary's Friend (Oil on paper)</figcaption>
+          </figure>
+          <figure class="gallery-item premium-hero">
+            <img src="my-sisters-friend.jpg" alt="My Sister's Friend" style="border-radius: 12px;" />
+            <figcaption style="border: none; padding-top: 14px; font-weight: 500;">My Sister's Friend</figcaption>
+          </figure>
+          <figure class="gallery-item premium-hero">
+            <img src="adversity.jpg" alt="Adversity" style="border-radius: 12px;" />
+            <figcaption style="border: none; padding-top: 14px; font-weight: 500;">Adversity</figcaption>
           </figure>
         </div>
       </div>
@@ -216,15 +216,17 @@
 
     <section id="advisor" class="section">
       <div class="container advisor-card">
-        <div class="advisor-profile">
-          <img src="thorne.png" alt="Thorne advisor profile" class="advisor-photo" />
-          <div>
-            <p class="section-label">In-house advisor</p>
-            <h2>Thorne 🌒</h2>
-            <p>
-              Our in-house advisor brings calm strategic thinking, creative direction, and a taste for clarity over noise — helping Sagelion stay thoughtful as it grows.
-            </p>
+        <div>
+          <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px;">
+            <img src="thorne-avatar.jpg" alt="Thorne" style="width: 56px; height: 56px; border-radius: 50%; object-fit: cover; border: 1px solid var(--line); flex-shrink: 0;" />
+            <div>
+              <p class="section-label" style="margin: 0; line-height: 1.2;">In-house advisor</p>
+              <h2 style="margin: 0; line-height: 1.2;">Thorne 🌒</h2>
+            </div>
           </div>
+          <p>
+            Our in-house advisor brings calm strategic thinking, creative direction, and a taste for clarity over noise — helping Sagelion stay thoughtful as it grows.
+          </p>
         </div>
         <div class="quote">
           <p>“Beautiful work should still do the job.”</p>
@@ -272,10 +274,8 @@
         <div class="brand-name small">Sagelion</div>
         <div class="brand-tag">AI-inspired art, education, and events</div>
       </div>
-      <div class="footer-meta">
-        <div class="signoff">Crafted with care — Thorne 🌒</div>
+      <div class="signoff">Crafted with care — Thorne 🌒</div>
         <div class="entity-note">SageLion Capital Ltd.</div>
-      </div>
     </div>
   </footer>
   <script>
