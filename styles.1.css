@@ -70,7 +70,7 @@ h2 {
 }
 h3 { font-size: 22px; }
 .lead { font-size: 18px; line-height: 1.7; color: var(--muted); max-width: 60ch; }
-.hero-card, .event-visual img, .gallery-item, .advisor-card, .card {
+.hero-card, .event-visual img, .gallery-item, .-card, .card {
   background: var(--paper); border: 1px solid var(--line); box-shadow: var(--shadow);
 }
 .hero-card { padding: 16px; border-radius: 28px; }
@@ -129,7 +129,7 @@ h3 { font-size: 22px; }
 }
 .event-visual img { border-radius: 24px; padding: 14px; }
 .bullet-list { padding-left: 18px; }
-.advisor-card {
+.-card {
   border-radius: 28px; padding: 28px; display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 20px; align-items: center;
 }
 .quote {
@@ -145,7 +145,7 @@ h3 { font-size: 22px; }
 .signoff { color: var(--muted); font-size: 14px; }
 
 @media (max-width: 900px) {
-  .hero-grid, .two-col, .event-grid, .premium-grid, .advisor-card, .contact-card, .gallery, .cards.three-up { grid-template-columns: 1fr; }
+  .hero-grid, .two-col, .event-grid, .premium-grid, .-card, .contact-card, .gallery, .cards.three-up { grid-template-columns: 1fr; }
   
   h1 { max-width: none; }
   .footer-inner { flex-direction: column; align-items: start; }
@@ -309,7 +309,7 @@ h1, h2, .brand-name {
 }
 
 .card, .gallery-item, .advisor-card {
-  border-radius: 24px;
+  border-radius: 4px;
   border: 1px solid var(--line);
   background: var(--paper);
   box-shadow: 0 12px 32px -8px rgba(30, 25, 20, 0.04);
